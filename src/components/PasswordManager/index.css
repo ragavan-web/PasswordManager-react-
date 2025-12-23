@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+/* ---------- APP CONTAINER ---------- */
+
+.app-container {
+  min-height: 100vh;
+  background-color: #9ba9eb;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------- LOGO ---------- */
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* ---------- TOP CONTAINER ---------- */
+
+.top-container {
+  width: 100%;
+  max-width: 1100px;
+  background-color: #5763a5;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .top-container {
+    flex-direction: column;
+  }
+}
+
+/* ---------- FORM ---------- */
+
+.form-container {
+  background-color: #454f84;
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.form-container h1 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* ---------- INPUTS ---------- */
+
+.input-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+}
+
+.input-container img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* ---------- ADD BUTTON ---------- */
+
+.form-container button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  float: right;
+}
+
+/* ---------- SIDE IMAGE ---------- */
+
+.manager-img {
+  width: 100%;
+  max-width: 380px;
+}
+
+/* ---------- BOTTOM CONTAINER ---------- */
+
+.bottom-container {
+  width: 100%;
+  max-width: 1100px;
+  background-color: #5763a5;
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+/* ---------- HEADER ROW ---------- */
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-row h1 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.header-row p {
+  background-color: #64748b;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 14px;
+}
+
+/* ---------- SEARCH ---------- */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.search-container img {
+  width: 18px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  margin-left: 6px;
+}
+
+/* ---------- SHOW PASSWORD ---------- */
+
+.show-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.show-container label {
+  color: #ffffff;
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+/* ---------- PASSWORD LIST ---------- */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* ---------- PASSWORD CARD ---------- */
+
+li {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 15px;
+  width: 260px;
+  color: #ffffff;
+}
+
+li p {
+  margin: 4px 0;
+}
+
+li img[alt='stars'] {
+  width: 120px;
+  margin: 6px 0;
+}
+
+/* ---------- DELETE ---------- */
+
+li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+li button img {
+  width: 20px;
+}
+
+/* ---------- NO PASSWORDS ---------- */
+
+.no-passwords {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.no-passwords img {
+  width: 250px;
+}
+
+.no-passwords p {
+  color: #ffffff;
+  font-size: 18px;
+}
